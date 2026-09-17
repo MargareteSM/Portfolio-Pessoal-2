@@ -76,7 +76,7 @@ h3 { line-height: 1.2; }
 .provisional-note-coral { color: rgba(16, 25, 35, .66); margin-top: 1.4rem; }
 
 /* Cabeçalho fixo no fluxo: no mobile a navegação vira painel expansível. */
-.site-header { position: absolute; z-index: 10; width: 100%; color: var(--paper-light); border-bottom: 1px solid rgba(230, 239, 235, .15); }
+.site-header { position: fixed; inset: 0 0 auto; z-index: 10; width: 100%; color: var(--paper-light); background: rgba(16, 25, 35, .9); border-bottom: 1px solid rgba(230, 239, 235, .15); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 .header-inner { min-height: 5.6rem; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: .8rem; }
 .brand-mark { display: grid; place-items: center; width: 2.45rem; height: 2.45rem; border: 1px solid currentColor; color: var(--coral); font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: -.08em; }
