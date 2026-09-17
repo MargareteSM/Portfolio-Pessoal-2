@@ -318,10 +318,11 @@ h3 { line-height: 1.2; }
   .hero-grid { display: flex; flex-direction: column; align-items: stretch; gap: 3rem; }
   .hero h1 { font-size: clamp(4.2rem, 19vw, 7rem); }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 1.4rem; }
-  .hero-portrait-wrap { align-self: center; width: min(100%, 340px); margin-right: .8rem; }
-  .hero-bottom { display: flex; margin-top: 3.5rem; flex-wrap: wrap; gap: .7rem; }
-  .hero-bottom > span:first-child { width: auto; margin-inline: 0; }
-  .hero-bottom > span:last-child { display: none; }
+  .hero-portrait-wrap { align-self: center; width: min(100%, 340px); margin-inline: auto; }
+  .hero-bottom { display: grid; grid-template-columns: 1fr; margin-top: 3.5rem; gap: .7rem; }
+  .hero-bottom > span:first-child { grid-column: 1; grid-row: auto; justify-self: center; width: min(100%, 340px); margin-inline: auto; }
+  .hero-bottom > span:last-child { display: block; grid-column: 1; grid-row: auto; justify-self: center; width: min(100%, 340px); margin-inline: auto; text-align: right; }
+  .hero-bottom .scroll-cue { grid-column: auto; grid-row: auto; justify-self: center; }
   .signal-grid { display: flex; flex-wrap: wrap; gap: 1.1rem; }
   .signal-item { width: calc(50% - .7rem); }
   .signal-item:last-of-type { width: 100%; }
