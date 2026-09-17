@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Portfólio Pessoal V0.1"
+description = "Landing page pessoal responsiva para currículo e portfólio profissional de Margarete Macedo, construída de forma didática e simples de editar."
+version = "1.0.0"
+id = "artifacts/portfolio-pessoal"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25585
+
+[services.development]
+run = "pnpm --filter @workspace/portfolio-pessoal run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/portfolio-pessoal", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/portfolio-pessoal/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25585"
+BASE_PATH = "/"
