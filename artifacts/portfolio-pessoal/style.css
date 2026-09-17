@@ -123,7 +123,7 @@ h3 { line-height: 1.2; }
 .portrait-cross-b { right: 1.4rem; bottom: 1.4rem; transform: rotate(180deg); }
 .hero-bottom { width: 100%; margin-top: auto; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr); align-items: end; gap: clamp(2rem, 8vw, 8rem); color: #819099; font-family: var(--mono); font-size: .61rem; text-transform: uppercase; letter-spacing: .1em; }
 .hero-bottom > span:first-child { grid-column: 1; grid-row: 1; width: min(100%, 38rem); margin-inline: auto; }
-.hero-bottom > span:last-child { grid-column: 2; grid-row: 1; width: min(100%, 390px); justify-self: center; text-align: left; }
+.hero-bottom > span:last-child { grid-column: 2; grid-row: 1; width: min(100%, 390px); justify-self: center; text-align: right; }
 .scroll-cue { grid-column: 1 / -1; grid-row: 1; justify-self: center; display: flex; align-items: center; gap: .7rem; color: var(--paper-light); }
 .scroll-line { display: inline-block; width: 3rem; height: 1px; background: var(--coral); }
 
