@@ -203,6 +203,16 @@ h3 { line-height: 1.2; }
 .certificate-seal { display: grid; place-items: center; width: 2rem; height: 2rem; border: 1px solid var(--coral); color: var(--coral); font-family: var(--mono); font-size: .62rem; }
 .certificate-status { color: var(--ink-muted); font-family: var(--mono); font-size: .62rem; text-transform: uppercase; }
 .certificate-status.status-done { color: var(--coral-dark); }
+.academic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .7rem; }
+.academic-card { min-height: 11rem; padding: 1rem; border: 1px solid var(--line-light); }
+.academic-number, .extension-card > span { color: var(--coral); font-family: var(--mono); font-size: .64rem; letter-spacing: .08em; }
+.academic-card h4, .extension-card h4 { margin: .9rem 0 .65rem; font-size: .83rem; line-height: 1.35; }
+.academic-card p, .academic-card small, .extension-card p { display: block; color: var(--ink-muted); font-size: .7rem; line-height: 1.45; margin: 0; }
+.academic-card small { color: var(--coral-dark); font-family: var(--mono); margin-top: .3rem; text-transform: uppercase; }
+.extension-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 1.2rem; }
+.extension-card { display: grid; grid-template-columns: 1.8rem 1fr; gap: .65rem; align-items: start; padding: .8rem 0; border-top: 1px solid var(--line-light); }
+.extension-card h4 { margin: 0 0 .3rem; font-size: .78rem; }
+.extension-card p { color: var(--coral-dark); font-family: var(--mono); font-size: .61rem; text-transform: uppercase; }
 
 /* Habilidades: quatro blocos com pesos diferentes para quebrar a grade previsível. */
 .skills-section { background: var(--paper-deep); }
@@ -354,6 +364,8 @@ h3 { line-height: 1.2; }
   .experience-heading { display: block; }
   .experience-heading > span { display: block; margin-top: .6rem; }
   .experience-meta { flex-direction: column; gap: .45rem; line-height: 1.4; }
+  .academic-grid, .extension-grid { grid-template-columns: 1fr; }
+  .academic-card { min-height: auto; }
   .skills-top, .projects-heading { display: block; margin-bottom: 3rem; }
   .skills-note, .projects-description { margin-top: 1.8rem; }
   .skills-grid { display: block; }
