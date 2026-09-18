@@ -79,7 +79,7 @@ h3 { line-height: 1.2; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: 10; width: 100%; color: var(--paper-light); background: rgba(36, 17, 31, .9); border-bottom: 1px solid rgba(255, 250, 253, .15); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 .header-inner { min-height: 5.6rem; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: .8rem; }
-.brand-mark { display: grid; place-items: center; width: 2.45rem; height: 2.45rem; border: 1px solid currentColor; color: var(--coral); font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: -.08em; }
+.brand-mark { display: block; width: 2.45rem; height: 2.45rem; object-fit: cover; border: 1px solid var(--coral); }
 .brand-name { font-size: .77rem; line-height: 1.08; font-weight: 800; letter-spacing: .01em; }
 .brand-name em { font-family: var(--serif); font-size: 1rem; font-weight: 400; }
 .main-nav { display: flex; align-items: center; gap: clamp(1.3rem, 3vw, 3.2rem); font-family: var(--mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; }
