@@ -6,7 +6,7 @@
 
 Um portfólio pessoal em evolução, criado como parte da jornada de aprendizado em desenvolvimento web e design.
 
-[Visualizar aplicação](https://77c5be57-fdf1-4a78-9915-821222f0fa84-00-3byfcfu1p23jx.reed.replit.dev/) · [Abrir no Replit](https://replit.com/@margaretesm/Portfolio-Pessoal-V01) · [Ver no GitHub](https://github.com/MargareteSM/Portfolio-Pessoal-V01)
+[Visualizar aplicação](https://77c5be57-fdf1-4a78-9915-821222f0fa84-00-3byfcfu1p23jx.reed.replit.dev/) · [Abrir no Replit](https://replit.com/@margaretesm/Portfolio-Pessoal-V01) · [Ver no GitHub](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
 
 </div>
 
@@ -22,19 +22,15 @@ Mais do que uma página finalizada, este repositório funciona como um registro 
 
 ## Preview
 
-![Preview do portfólio em desktop](screenshots/portfolio-desktop.jpg)
-
-O repositório também contém uma captura para visualização em dispositivos móveis em [`screenshots/portfolio-mobile.jpg`](screenshots/portfolio-mobile.jpg).
+![Preview do portfólio](screenshots/portfolio-desktop.jpg)
 
 ## Demonstração
 
 - **Aplicação/preview:** [acessar o portfólio](https://77c5be57-fdf1-4a78-9915-821222f0fa84-00-3byfcfu1p23jx.reed.replit.dev/)
 - **Projeto no Replit:** [Portfolio-Pessoal-V01](https://replit.com/@margaretesm/Portfolio-Pessoal-V01)
-- **Repositório no GitHub:** [MargareteSM/Portfolio-Pessoal-V01](https://github.com/MargareteSM/Portfolio-Pessoal-V01)
+- **Repositório no GitHub:** [MargareteSM/Portfolio-Pessoal-Replit](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
 
 ## Tecnologias
-
-As tecnologias abaixo foram identificadas nos arquivos do projeto e nas configurações do workspace:
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff" alt="HTML5" />
@@ -71,30 +67,20 @@ As tecnologias abaixo foram identificadas nos arquivos do projeto e nas configur
 ```text
 .
 ├── artifacts/
-│   ├── api-server/              # Servidor e rota de health check do workspace
-│   ├── mockup-sandbox/          # Artefato de mockup baseado em React
-│   └── portfolio-pessoal/       # Artefato principal do portfólio
-│       ├── index.html           # Página principal e conteúdo do portfólio
-│       ├── style.css            # Estilos, layout e responsividade
-│       ├── script.js            # Interações da página
-│       ├── src/                 # Estrutura TypeScript/React presente no artefato
-│       ├── public/              # Favicon, logo e robots.txt
-│       └── package.json         # Scripts do artefato
+│   ├── api-server/
+│   ├── mockup-sandbox/
+│   └── portfolio-pessoal/
 ├── lib/
-│   ├── api-client-react/        # Cliente React gerado para a API
-│   ├── api-spec/                # Especificação OpenAPI e configuração de geração
-│   ├── api-zod/                 # Tipos e validações gerados
-│   └── db/                      # Configuração e schema do banco
-├── screenshots/                 # Capturas desktop e mobile do portfólio
-├── scripts/                     # Scripts auxiliares do workspace
-├── package.json                 # Scripts principais do workspace
-├── pnpm-workspace.yaml          # Configuração do workspace pnpm
-├── pnpm-lock.yaml               # Lockfile das dependências
-├── tsconfig.json                # Referências TypeScript do workspace
-└── .replit                      # Configuração de execução e deployment no Replit
+├── screenshots/
+├── scripts/
+├── package.json
+├── pnpm-workspace.yaml
+├── pnpm-lock.yaml
+├── tsconfig.json
+└── .replit
 ```
 
-> O artefato visual principal do portfólio está em `artifacts/portfolio-pessoal/`. O repositório também mantém estruturas de workspace relacionadas a API, geração de tipos e banco de dados.
+O artefato visual principal do portfólio está em `artifacts/portfolio-pessoal/`.
 
 ## Como executar
 
@@ -113,13 +99,9 @@ pnpm install
 
 ### Executar o portfólio em desenvolvimento
 
-O pacote do portfólio define o script `dev` com Vite:
-
 ```bash
 pnpm --filter @workspace/portfolio-pessoal run dev
 ```
-
-A configuração do Vite utiliza as variáveis de ambiente `PORT` e `BASE_PATH`. Em ambientes Replit, essas variáveis fazem parte da configuração de execução da aplicação.
 
 ### Gerar o build do portfólio
 
@@ -129,27 +111,17 @@ pnpm --filter @workspace/portfolio-pessoal run build
 
 ### Verificar tipos
 
-Para verificar os tipos de todos os pacotes configurados no workspace:
-
 ```bash
 pnpm run typecheck
 ```
 
-Para executar a sequência principal de verificação e build do workspace:
-
-```bash
-pnpm run build
-```
-
 ## Desenvolvimento e aprendizado
 
-Este projeto representa uma etapa inicial e real de aprendizado. A proposta é construir enquanto se aprende: testar ideias, observar resultados, organizar descobertas e evoluir gradualmente a interface e o código.
+Este projeto representa uma etapa inicial e real de aprendizado. A proposta é construir enquanto se aprende: testar ideias, observar resultados, organizar descobertas e evoluir gradualmente.
 
 O portfólio não pretende apresentar uma trajetória pronta. Ele documenta um caminho em movimento — com espaço para experimentação, ajustes e novos projetos.
 
 ## Roadmap
-
-As próximas versões poderão evoluir de forma progressiva, acompanhando os estudos e as necessidades do projeto:
 
 - aprimoramentos visuais e de composição;
 - melhorias de responsividade em diferentes dispositivos;
