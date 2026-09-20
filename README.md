@@ -28,10 +28,10 @@ A identidade visual do projeto combina composição editorial, contraste entre s
 ![Preview do portfólio](screenshots/screenshotportfolio1.png)
 ![Preview do portfólio](screenshots/screenshotportfolio2.png)
 ![Preview do portfólio](screenshots/screenshotportfolio3.png)
-![Preview do portfólio](screenshots/screenshotportfolio4.png)
 ![Preview do portfólio](screenshots/screenshotportfolio5.png)
-![Preview do portfólio](screenshots/screenshotportfolio6.png)
 ![Preview do portfólio](screenshots/screenshotportfolio7.png)
+![Preview do portfólio](screenshots/screenshotportfolio6.png)
+![Preview do portfólio](screenshots/screenshotportfolio6.png)
 
 ## ✦ Tecnologias
 
