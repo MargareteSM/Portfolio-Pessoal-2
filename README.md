@@ -24,7 +24,7 @@ Mais do que uma página finalizada, este repositório registra um caminho em mov
 
 A identidade visual do projeto combina composição editorial, contraste entre superfícies claras e escuras, tipografia expressiva, detalhes em coral e elementos gráficos inspirados em blueprint.
 
-![Preview do portfólio](screenshots/replitportfolio.png)
+![Preview do portfólio](screenshots/full-screenshot.png)
 
 ## ✦ Tecnologias
 
