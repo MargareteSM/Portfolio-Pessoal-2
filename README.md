@@ -6,7 +6,7 @@
 
 Um portfólio pessoal em evolução, criado para acompanhar a jornada de Margarete Macedo entre desenvolvimento web, tecnologia e design.
 
-[🌐 **Ver portfólio online**](https://lnkd.in/djWxgdsJ) · [💻 **Abrir repositório**](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
+[🌐 **Ver portfólio online**](https://lnkd.in/dT_KWwX6) · [💻 **Abrir repositório**](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
 
 </div>
 
@@ -14,9 +14,9 @@ Um portfólio pessoal em evolução, criado para acompanhar a jornada de Margare
 
 ## ✦ Sobre o projeto
 
-O **Portfolio-Pessoal-Replit** é um espaço de apresentação, prática e experimentação. A proposta é reunir trajetória profissional, formação, habilidades, projetos em construção e próximos objetivos em uma experiência digital autoral.
+O **Portfolio-Pessoal-Replit** é um espaço de apresentação, prática e experimentação. A proposta é reunir trajetória profissional, formação, habilidades, projetos em construção e próximo[...] 
 
-Mais do que uma página finalizada, este repositório registra um caminho em movimento: cada seção representa uma descoberta, uma tentativa ou uma nova camada de aprendizado em desenvolvimento web e design.
+Mais do que uma página finalizada, este repositório registra um caminho em movimento: cada seção representa uma descoberta, uma tentativa ou uma nova camada de aprendizado em desenvolvimento web e[...]
 
 > **Ideias em código. Aprendizado em movimento.**
 
@@ -94,7 +94,7 @@ O principal artefato visual está em `artifacts/portfolio-pessoal/`. A raiz orga
 
 **Aprender também é construir.**
 
-Este projeto funciona como um ambiente de estudo e experimentação: testar uma ideia, observar o resultado, ajustar a estrutura e transformar conceitos em algo visível. O portfólio continuará evoluindo conforme novas habilidades, tecnologias e referências forem incorporadas.
+Este projeto funciona como um ambiente de estudo e experimentação: testar uma ideia, observar o resultado, ajustar a estrutura e transformar conceitos em algo visível. O portfólio continuará [...]
 
 O objetivo não é apresentar uma trajetória pronta, mas documentar um processo real — com curiosidade, prática e espaço para os próximos capítulos.
 
@@ -135,7 +135,7 @@ pnpm run typecheck
 
 ## ✦ Links
 
-- **Portfólio online:** [lnkd.in/djWxgdsJ](https://lnkd.in/djWxgdsJ)
+- **Portfólio online:** [lnkd.in/dT_KWwX6](https://lnkd.in/dT_KWwX6)
 - **Repositório GitHub:** [MargareteSM/Portfolio-Pessoal-Replit](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
 
 ## ✦ Autora
