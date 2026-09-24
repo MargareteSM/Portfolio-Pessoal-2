@@ -96,7 +96,7 @@ O principal artefato visual está em `artifacts/portfolio-pessoal/`. A raiz orga
 
 **Aprender também é construir.**
 
-Este projeto funciona como um ambiente de estudo e experimentação: testar uma ideia, observar o resultado, ajustar a estrutura e transformar conceitos em algo visível. O portfólio continuará em evolução no repositório, com registros do processo e de novas etapas de aprendizado.
+Este projeto funciona como um ambiente de estudo e experimentação: testar uma ideia, observar o resultado, ajustar a estrutura e transformar conceitos em algo visível. O portfólio continuará em evolução como uma documentação de processo, buscando cada vez mais clareza, eficiência e criatividade.
 
 O objetivo não é apresentar uma trajetória pronta, mas documentar um processo real — com curiosidade, prática e espaço para os próximos capítulos.
 
