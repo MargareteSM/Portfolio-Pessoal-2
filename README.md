@@ -6,7 +6,7 @@
 
 Um portfólio pessoal em evolução, criado para acompanhar a jornada de Margarete Macedo entre desenvolvimento web, tecnologia e design.
 
-[⚠️ **Status do site**](https://github.com/MargareteSM/Portfolio-Pessoal-Replit) · [💻 **Abrir repositório**](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
+[⚠️ **Status do site**](https://github.com/MargareteSM/Portfolio-Pessoal-2) · [💻 **Abrir repositório**](https://github.com/MargareteSM/Portfolio-Pessoal-2)
 
 > O site atingiu o limite do plano Start do Replit e, por essa razão, não será possível continuar a atualizar este projeto nesta hospedagem.
 
@@ -16,7 +16,7 @@ Um portfólio pessoal em evolução, criado para acompanhar a jornada de Margare
 
 ## ✦ Sobre o projeto
 
-O **Portfolio-Pessoal-Replit** é um espaço de apresentação, prática e experimentação. A proposta é reunir trajetória profissional, formação, habilidades, projetos em construção e próximos passos em desenvolvimento.
+O **Portfolio-Pessoal-2** é um espaço de apresentação, prática e experimentação. A proposta é reunir trajetória profissional, formação, habilidades, projetos em construção e próximos passos em desenvolvimento.
 
 Mais do que uma página finalizada, este repositório registra um caminho em movimento: cada seção representa uma descoberta, uma tentativa ou uma nova camada de aprendizado em desenvolvimento web e design.
 
@@ -138,7 +138,7 @@ pnpm run typecheck
 ## ✦ Links
 
 - **Status do site:** o projeto atingiu o limite do plano Start do Replit. Por isso, o site não está mais disponível online e não será possível continuar a atualização deste projeto nessa hospedagem.
-- **Repositório GitHub:** [MargareteSM/Portfolio-Pessoal-Replit](https://github.com/MargareteSM/Portfolio-Pessoal-Replit)
+- **Repositório GitHub:** [MargareteSM/Portfolio-Pessoal-2](https://github.com/MargareteSM/Portfolio-Pessoal-2)
 
 ## ✦ Autora
 
